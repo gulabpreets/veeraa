@@ -1,0 +1,32 @@
+.message h1{
+    margin: 40px 50px 5px 50px;
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding: 30px;
+	border: dotted black 20px;
+	border-radius: 20px;
+/*	margin-left: */
+	
+}
+.message{
+	border-radius: 20px;
+}
+.message p{
+
+	text-align: center;
+	font-size: 30px;
+	
+}
+
+.warn p{
+	text-align: center;
+	color: red;
+	font-size: 20px;
+}
+
+.warn button{
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 5px;
+}

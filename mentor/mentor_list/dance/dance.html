@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veera</title>
+	 <link rel="icon" href="img/nav-bar-logo.png">
+    <link rel="stylesheet" href="style.css">
+<!--///////////link for icons///////////-->
+
+	<script src="https://kit.fontawesome.com/f9b0406407.js" crossorigin="anonymous"></script>		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous"/>
+	
+</head>
+<body>
+  <nav>
+	<input id="nav-toggle" type="checkbox">
+	
+	  <div class="logo-img">
+		<div class="logo-image">
+		<img src="img/nav-bar-logo.png" alt="image" class="nav-img">
+		</div>
+	  <div class="logo">Veera</div>
+		</div>
+	<ul class="links">
+		<li><a href="https://veera.org.in" target="_blank">Home</a></li>
+		<li><a href="#Rnd">Mentors</a></li>
+<!--		<li><a href="#Regi">Registration</a></li>-->
+<!--		<li><a href="#projects">Projects</a></li>-->
+<!--		<li><a href="#contact">Contact</a></li>-->
+	</ul>
+
+	<label for="nav-toggle" class="icon-burger">
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+	</label>
+			
+</nav>
+
+<div class="container">
+	<img src="img-comp/Dance.png" alt="">
+	
+</div>
+
+	<div class="heading">
+	<h1><span>Veera's</span> Dance Mentor</h1>
+	</div>
+	
+	<div class="container-mentor-box">
+	
+	<div class="container-box" id="Rnd">
+	
+		<div class="container-inner">
+		   <a href="../../all_mentors_by_name/dance/yukti/yukti.html" target="_blank" style="color: white; text-decoration: none;">
+			<div class="inner-container-img">
+			<img src="img/dance.gif" alt="dance">
+			</div>
+		<div style="color=white;" class="inner-container-txt">
+			Groove to the Beat
+		</div>
+		</a>
+			   </div>
+	
+	
+
+<!--
+		<div class="container-inner" >
+		    <div class="inner-container-img">
+			<img src="img/slider miss.png" alt="dance">
+			</div>
+		<div class="inner-container-txt">
+			Learn dance with me
+			
+			</div>
+		</div>
+		
+		
+		<div class="container-inner">
+		    <div class="inner-container-img">
+			<img src="img/slider miss.png" alt="dance">
+			</div>
+		<div class="inner-container-txt">
+			Learn dance with me
+			
+			</div>
+		</div>
+-->
+	
+	
+	</div>
+	
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<!--///////////////footer///////////	-->
+<!--///////////////footer///////////	-->
+<!--///////////////footer///////////	-->
+<!--///////////////footer///////////	-->
+<!--///////////////footer///////////	-->
+<!--///////////////footer///////////	-->
+<!--///////////////footer///////////	-->
+<!--///////////////footer///////////	-->
+			 <footer>
+        <div class="footer-content">
+            <h3 class="great-vibes" id="footer-veera">Veera</h3>
+            <p>Empowering Talent</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+<!--                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2021 <br><br> designed with <i class="fa fa-heart-o"></i> by Veera</p>
+        </div>
+    </footer>
+		
+		
+<!--	/////counter section//////////-->
+<!--	/////counter section//////////-->
+<!--	/////counter section//////////-->
+<!--	/////counter section//////////-->
+		
+		<section style="display: none;" class="counter-sec">
+		    <div class="counter">
+
+        <div style="margin-top: 15px;" class="head">Total Website Visit</div>
+        <div class="count">00</div>
+
+    </div>
+
+</section>	
+
+    <script>
+	
+		function updateCounter() {
+    fetch('https://api.countapi.xyz/update/veera/empowering/?amount=1')
+        .then(res => res.json())
+        .then(data => counterElement.innerHTML = data.value)
+}
+
+updateCounter()
+
+
+
+counterElement = document.getElementsByClassName('count')[0];
+		
+	</script>
+	
+<!--	///////counter section end/////-->
+<!--	///////counter section end/////-->
+<!--	///////counter section end/////-->
+<!--	///////counter section end/////-->	
+	
+
+</body>
+</html>

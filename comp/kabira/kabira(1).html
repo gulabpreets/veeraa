@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veera</title>
+	 <link rel="icon" href="img/nav-bar-logo.png">
+    <link rel="stylesheet" href="style.css">
+<!--///////////link for icons///////////-->
+
+	<script src="https://kit.fontawesome.com/f9b0406407.js" crossorigin="anonymous"></script>		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous"/>
+	
+</head>
+<body>
+  <nav>
+	<input id="nav-toggle" type="checkbox">
+	
+	  <div class="logo-img">
+		<div class="logo-image">
+		<img src="img/nav-bar-logo.png" alt="image" class="nav-img">
+		</div>
+	  <div class="logo">Veera</div>
+		</div>
+	<ul class="links">
+		<li><a href="https://veera.org.in" target="_blank">Home</a></li>
+<!--		<li><a href="#Rnd">Mentors</a></li>-->
+<!--		<li><a href="#Regi">Registration</a></li>-->
+<!--		<li><a href="#projects">Projects</a></li>-->
+<!--		<li><a href="#contact">Contact</a></li>-->
+	</ul>
+
+	<label for="nav-toggle" class="icon-burger">
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+	</label>
+			
+</nav>
+
+<div class="container">
+	<img src="img/nygif.gif" alt="">
+	
+</div>
+<br><br>
+	<div class="heading">
+	<h2>कबीरा poetry competition</h2>
+	</div>
+	
+	
+<!--	///////main content/////-->
+<!--	///////main content/////-->
+<!--	///////main content/////-->
+<!--	///////main content/////-->
+<!--	///////main content/////-->
+	
+	<div class="main-content">
+	<!--<div class="course-name">-->
+	<!--Groove to the Beat -->
+	<!--	</div>-->
+		
+		<div class="content-of-course">
+		<p>INSTRUCTIONS FOR POETRY :-</p>
+		 
+
+		1. Competition will be in both online and offline mode.<br>
+		2. Entry fees for the competition is ₹100/- only.<br>
+		3. Mode of payment will be offline and online both ,( for online QR code or UPI id will be sent to your active mobile no after registration.)<br>
+		4. The contest is open to anyone.<br>
+		5. Contest entries are judged based on poetic technique , effectiveness , style and creativity.<br>
+		6. winners will get cash prizes , certificates and social media streaming .<br>
+		</div>
+		
+		<div class="time">
+		<p>Venue</p>
+        <ul>
+			<li>
+			  PIET College
+			</li>
+				<!--<li>-->
+			  <!--New Batch will start from 1st December-->
+			<!--</li>-->
+			</ul>			
+		</div>
+		
+		
+		
+		<div class="Features">
+			<p>Features</p>
+		<ul>
+		  <li>Cash Prizes</li>	
+		  <li>Certificates</li>	
+		<li>Live Streaming of Finalist on YouTube channel of PIET</li>	
+		  <!-- <li>Free Demo class*</li>	
+		    <li>3 Days money back guarantee**</li>	 -->
+		</ul>
+		</div>
+		
+		<div class="fees">
+		Registration Fee : &nbsp;<span style="color: red; font-size:35px;" >₹100/-</span> only*
+		</div>
+
+		
+
+  <button class="btnp" onclick="rozorpay()"> <u>Click to pay Registration Fees</u></button>
+		<br>
+		For any query call at +91 8651853948
+		After filling the form our team will contact you within 24 hours to collect payment.
+		<br><br>
+
+		
+		<div class="Features">
+		<p>If you have any query feel free to call or Whatsapp at:</p>
+			
+<a href="https://wa.me/+918571994476"><button class="btn" > <i class="fab fa-whatsapp"></i> +91 8571994476</button></a>
+				
+			</div>
+	
+		
+		<div class="tc">
+		<p>Terms and Conditions</p>
+						<div class="cond1">*Once payment is done by participant, then it is non reversible.</div>
+		
+			 
+			
+		</div>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+<!--///////////////footer///////////	-->
+<!--///////////////footer///////////	-->
+<!--///////////////footer///////////	-->
+<!--///////////////footer///////////	-->
+<!--///////////////footer///////////	-->
+<!--///////////////footer///////////	-->
+<!--///////////////footer///////////	-->
+<!--///////////////footer///////////	-->
+			 <footer>
+        <div class="footer-content">
+            <h3 class="great-vibes" id="footer-veera">Veera</h3>
+            <p>Empowering Talent</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+<!--                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2021 <br><br> designed with <i class="fa fa-heart-o"></i> by Veera</p>
+        </div>
+    </footer>
+		
+	
+<!--	/////counter section//////////-->
+<!--	/////counter section//////////-->
+<!--	/////counter section//////////-->
+<!--	/////counter section//////////-->
+		
+		<section style="display: none;" class="counter-sec">
+		    <div class="counter">
+
+        <div style="margin-top: 15px;" class="head">Total Website Visit</div>
+        <div class="count">00</div>
+
+    </div>
+
+</section>	
+
+    <script>
+	
+		function updateCounter() {
+    fetch('https://api.countapi.xyz/update/veera/empowering/?amount=1')
+        .then(res => res.json())
+        .then(data => counterElement.innerHTML = data.value)
+}
+
+updateCounter()
+
+
+
+counterElement = document.getElementsByClassName('count')[0];
+
+ 
+ function rozorpay(){
+	location.href = "https://rzp.io/l/YslMBXo9e";
+}
+
+
+		
+	</script>
+	
+<!--	///////counter section end/////-->
+<!--	///////counter section end/////-->
+<!--	///////counter section end/////-->
+<!--	///////counter section end/////-->		
+	
+
+</body>
+</html>
